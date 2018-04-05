@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B21FBA4-9837-4F14-AF77-A8E18572D4D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "AlphaPoc\DAL\DAL.csproj", "{3D6AA553-B512-4117-BACA-69C293E0EACD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaPoc", "AlphaPoc\AlphaPoc\AlphaPoc.csproj", "{9F121FEF-414C-4617-BA42-581EC8959C7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D6AA553-B512-4117-BACA-69C293E0EACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6AA553-B512-4117-BACA-69C293E0EACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6AA553-B512-4117-BACA-69C293E0EACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6AA553-B512-4117-BACA-69C293E0EACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F121FEF-414C-4617-BA42-581EC8959C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F121FEF-414C-4617-BA42-581EC8959C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F121FEF-414C-4617-BA42-581EC8959C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F121FEF-414C-4617-BA42-581EC8959C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D6AA553-B512-4117-BACA-69C293E0EACD} = {0B21FBA4-9837-4F14-AF77-A8E18572D4D5}
+		{9F121FEF-414C-4617-BA42-581EC8959C7C} = {0B21FBA4-9837-4F14-AF77-A8E18572D4D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D1D4DDE-2C86-4A4E-8B42-A365E16B4EA6}
+	EndGlobalSection
+EndGlobal

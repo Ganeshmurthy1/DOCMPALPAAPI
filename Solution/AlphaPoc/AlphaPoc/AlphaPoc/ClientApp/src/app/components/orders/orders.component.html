@@ -1,0 +1,119 @@
+<div class="main-container-padding">
+    <div class="row first-row">
+        <div class="padding-10px width50-per border-navy">
+            <div class="row panel-header">
+                <div class="col-md-10 white-text upperCase-text" style="color:white">Items of Interest / Notification / Alerts</div>
+                <div class="col-md-2">
+                    <a class="float-right"><img src="./assets/images/icons/ic_zoom_out.png" /></a>
+                </div>
+            </div>
+            <div class="row panel-body">
+                <div class="tableContainer">
+                    <table class="table">
+                        <!--<thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Item</th>
+                                <th>Status</th>
+                                <th>Days to Voilation</th>
+                            </tr>
+                        </thead>-->
+                        <tbody>
+                            
+                            <tr *ngFor="let item of items">
+                                <td>
+                                    <a [routerLink]="['/investigations', item.id]">
+                                        {{item.ioiType}}:
+                                        </a>
+                                </td>
+                                <td>{{item.description}}</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                   
+                </div>
+            </div>
+            <div class="row panel-footer">
+                <div class="col-md-9"></div>
+                <div class="col-md-3">
+                    <a class="float-right forwardAnchr">Full List...</a>
+                </div>
+            </div>
+        </div>
+        <div class="padding-10px width25-per border-navy">
+            <div class="row panel-header">
+                <div class="col-md-10 white-text upperCase-text">Flagged Items</div>
+                <div class="col-md-2">
+                    <a class="float-right"><img src="./assets/images/icons/ic_zoom_out.png" /></a>
+                </div>
+            </div>
+            <div class="row panel-body">
+                <div class="flaggedItems">
+                    <ul>
+                        <li><span><input type="checkbox" /></span><span>Monthly Portfolio Review - Mary Wick</span></li>
+                        <li><span><input type="checkbox" /></span><span>Spouse Outside Business - Dante Alverez</span></li>
+                        <li><span><input type="checkbox" /></span><span>Approved Broker Exception - Jeff Thomas</span></li>
+                        <li><span><input type="checkbox" /></span><span>GrEylist Policy Management - Mgmt Signoff</span></li>
+                        <li><span><input type="checkbox" /></span><span>ACA Consultant - Discuss Gift thersholds</span></li>
+                        <li><span><input type="checkbox" /></span><span>Cybersecurity Committee Agenda</span></li>
+                        <li><span><input type="checkbox" /></span><span>Authorize Marketing Material Approvers List</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row panel-footer">
+                <div class="col-md-9"></div>
+                <div class="col-md-3">
+                    <a class="float-right forwardAnchr">Full List...</a>
+                </div>
+            </div>
+        </div>
+        <div class="padding-10px width25-per border-navy">
+            <div class="row panel-header">
+                <div class="col-md-10 white-text upperCase-text">Items of Interest / Notification / Alerts</div>
+                <div class="col-md-2">
+                    <a class="float-right"><img src="./assets/images/icons/ic_zoom_out.png" /></a>
+                </div>
+            </div>
+            <div class="row panel-body">
+                <div class="tableContainer notificationDiv">
+                    <ul class="notification">
+                        <li><span><img src="./assets/images/icons/ic_iot_1.png" /></span><span>IOI - Trade not pre-cleared and on Restricted List, Jim Fell</span></li>
+                        <li><span><img src="./assets/images/icons/ic_iot_2.png" /></span><span>Auto-approve-Entertainment, Jhon Smith, BAML, Dinner, $0.00</span></li>
+                        <li><span><img src="./assets/images/icons/ic_iot_2.png" /></span><span>Notification - New Employee Attestations complete; Bill Debier</span></li>
+                        <li><span><img src="./assets/images/icons/ic_iot_4.png" /></span><span>Quaterly Portfolio Certification complete - Zhang Min </span></li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row panel-footer">
+                <div class="col-md-9"></div>
+                <div class="col-md-3">
+                    <a class="float-right forwardAnchr">Full List...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row Second-row">
+        <div class="padding-10px widthRow21 border-navy">
+            <div class="row panel-header">
+                <div class="col-md-10 white-text upperCase-text">Activities Calendar</div>
+                <div class="col-md-2">
+                    <a class="float-right"><img src="./assets/images/icons/ic_zoom_out.png" /></a>
+                </div>
+            </div>
+            <div class="row panel-body">
+
+            </div>
+            <div class="row panel-footer">
+                <div class="col-md-9"></div>
+                <div class="col-md-3">
+                    <a class="float-right forwardAnchr">Full List...</a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
